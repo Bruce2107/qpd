@@ -14,7 +14,7 @@ body {
 p {
   padding: 0;
   margin: 0;
-  color: #231D19;
+  color: #231d19;
 }
 
 figcaption {
@@ -22,7 +22,8 @@ figcaption {
   text-align: center;
 }
 
-figcaption > a, figcaption > a:visited {
+figcaption > a,
+figcaption > a:visited {
   color: #ffdb58;
   font-weight: bold;
 }
@@ -31,8 +32,8 @@ figcaption > a, figcaption > a:visited {
   height: 2px;
   position: absolute;
   bottom: 0;
-  color: #ff14ea;
-  background-color: #ff14ea;
+  color: gold;
+  background-color: gold;
 }
 
 .tab {
@@ -45,5 +46,5 @@ figcaption > a, figcaption > a:visited {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #ff14;
+  background-color: rgba(0, 0, 0, .36);
 }

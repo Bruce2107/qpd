@@ -221,7 +221,7 @@ export const TabPanel: FC<TabPanelProps> = ({ panelKey, text }) => {
         <span
           style={{
             fontSize: '14px',
-            color: active ? '#ff14ea' : 'black',
+            color: active ? '#F1AE2F' : '#231d19',
             fontWeight: active ? 'bold' : 'normal',
           }}
         >
