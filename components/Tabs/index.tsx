@@ -218,7 +218,13 @@ export const TabPanel: FC<TabPanelProps> = ({ panelKey, text }) => {
         aria-controls={`${panelKey}-panel`}
         onClick={() => toggleActiveKey(panelKey)}
       >
-        <span style={{ fontSize: '14px', color: active ? '#ff14ea' : 'black' }}>
+        <span
+          style={{
+            fontSize: '14px',
+            color: active ? '#ff14ea' : 'black',
+            fontWeight: active ? 'bold' : 'normal',
+          }}
+        >
           {text}
         </span>
       </button>
