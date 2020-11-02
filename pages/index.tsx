@@ -1,7 +1,7 @@
 // import Head from 'next/head';
 import Page1 from '../components/Page1';
+import Page2 from '../components/Page2';
 import { Tab, TabPanel } from '../components/Tabs';
-import styles from '../styles/Home.module.css';
 
 
 export default function Home() {
@@ -10,8 +10,8 @@ export default function Home() {
       <TabPanel panelKey="racist" text="Racismo">
         <Page1 />
       </TabPanel>
-      <TabPanel panelKey="dois" text="dois">
-        dois
+      <TabPanel panelKey="representativeness" text="Representatividade">
+        <Page2 />
       </TabPanel>
       <TabPanel panelKey="tres" text="tres">
         tres
