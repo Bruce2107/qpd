@@ -167,7 +167,11 @@ export const Tab: FC<TabProps> = ({
                 aria-labelledby={tabPanelKey}
                 role="tabpanel"
                 aria-hidden={!active}
-                style={{ width: '100%' }}
+                style={{
+                  width: '100%',
+                  overflowY: 'scroll',
+                  height: 'calc(100vh - 40px)',
+                }}
               >
                 {content}
               </div>
