@@ -13,7 +13,7 @@ export default function Home() {
       <TabPanel panelKey="representativeness" text="Representatividade">
         <Page2 />
       </TabPanel>
-      <TabPanel panelKey="tres" text="tres">
+      <TabPanel panelKey="marxism" text="Marxismo e a questão racial">
         tres
       </TabPanel>
     </Tab>

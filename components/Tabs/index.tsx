@@ -227,6 +227,9 @@ export const TabPanel: FC<TabPanelProps> = ({ panelKey, text }) => {
             fontSize: '14px',
             color: active ? '#F1AE2F' : '#231d19',
             fontWeight: active ? 'bold' : 'normal',
+            textOverflow: 'ellipsis',
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
           }}
         >
           {text}
