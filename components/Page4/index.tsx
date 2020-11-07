@@ -1,10 +1,10 @@
-import Person from '../Person';
 import styles from './index.module.css';
 
 const Page3: React.FC = () => {
   return (
     <div
       className={`${styles.box} ${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
+      style={{ paddingBottom: '32px' }}
     >
       <h3 style={{ margin: 0, textAlign: 'center' }}>
         Desigualdade racial no Brasil

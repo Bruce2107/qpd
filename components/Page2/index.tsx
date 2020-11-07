@@ -5,6 +5,7 @@ const Page2: React.FC = () => {
   return (
     <div
       className={`${styles.box} ${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
+      style={{ paddingBottom: '32px' }}
     >
       <blockquote>
         <h2 className={styles.description}>

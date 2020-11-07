@@ -4,6 +4,7 @@ const Page1: React.FC = () => {
   return (
     <div
       className={`${styles.box} ${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
+      style={{ paddingBottom: '32px' }}
     >
       <div className={`${styles.columns}`}>
         <figure>
