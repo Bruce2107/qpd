@@ -1,0 +1,58 @@
+.box {
+  display: grid;
+}
+
+.pv-16 {
+  padding: 0 16px;
+}
+
+.row-gap-8 {
+  row-gap: 8px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.image {
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.references > h4 {
+  margin: 0;
+}
+
+.references > cite > a,
+.references > cite > a:visited {
+  color: #ffdb58;
+  font-weight: bold;
+}
+
+cite.box > span {
+  color: #56504c;
+}
+
+.font {
+  color: #56504c;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.font > a,
+.font > a:visited {
+  color: #ffdb58;
+}

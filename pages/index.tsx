@@ -4,6 +4,7 @@ import Page2 from '../components/Page2';
 import Page3 from '../components/Page3';
 import Page4 from '../components/Page4';
 import Page5 from '../components/Page5';
+import Page6 from '../components/Page6';
 import { Tab, TabPanel } from '../components/Tabs';
 
 
@@ -24,6 +25,9 @@ export default function Home() {
       </TabPanel>
       <TabPanel panelKey="people" text="George Floyd e João Pedro">
         <Page5 />
+      </TabPanel>
+      <TabPanel panelKey="combate" text="Combate">
+        <Page6 />
       </TabPanel>
     </Tab>
   );
