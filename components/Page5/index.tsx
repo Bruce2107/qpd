@@ -3,10 +3,10 @@ import styles from './index.module.css';
 export default function index() {
   return (
     <div
-      className={`${styles.box} ${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
+      className={`${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
       style={{ paddingBottom: '32px' }}
     >
-      <cite className={`${styles.box} ${styles['row-gap-8']}`}>
+      <cite className={`${styles['row-gap-8']}`}>
         <span>
           No último dia 18, a polícia do Rio de Janeiro matou João Pedro Mattos,
           quando ele estava dentro de sua casa, em São Gonçalo, no Rio de

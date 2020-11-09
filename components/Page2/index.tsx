@@ -4,7 +4,7 @@ import styles from './index.module.css';
 const Page2: React.FC = () => {
   return (
     <div
-      className={`${styles.box} ${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
+      className={`${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
       style={{ paddingBottom: '32px' }}
     >
       <blockquote>

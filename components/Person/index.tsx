@@ -14,7 +14,7 @@ const Person: React.FC<PersonProps> = ({
   name,
 }) => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
       <h4 style={{ margin: 0, textAlign: 'center' }}>{name}</h4>
       <figure>
         <img src={image} alt="" aria-hidden style={{ width: '100%' }} />

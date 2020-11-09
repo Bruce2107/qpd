@@ -18,9 +18,18 @@ p {
   color: #231d19;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 figcaption {
   color: #56504c;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 figcaption > a,
