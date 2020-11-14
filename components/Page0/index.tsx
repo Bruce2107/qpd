@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 
-const Page1: React.FC = () => {
+const Page0: React.FC = () => {
   return (
     <div
       className={`${styles['pv-16']} ${styles['row-gap-8']} ${styles['mt-24']}`}
@@ -9,15 +9,16 @@ const Page1: React.FC = () => {
       <div className={`${styles.columns}`}>
         <figure>
           <img
-            src="/circa-1985-police-whip-protester-gty-jc-200706_hpEmbed_3x2_992.jpg"
+            src="/5057613.png"
             alt=""
             aria-hidden
             className={`${styles.image}`}
+            style={{ width: '75%' }}
           />
           <figcaption>
             Fonte:{' '}
-            <a href="https://abcnews.go.com/International/apartheid-jim-crow-george-floyds-death-reverberated-africa/story?id=71556630">
-              https://abcnews.go.com/International/apartheid-jim-crow-george-floyds-death-reverberated-africa/story?id=71556630
+            <a href="https://www.livesoftheladysaints.com/may.html">
+              https://www.livesoftheladysaints.com/may.html
             </a>
           </figcaption>
         </figure>
@@ -49,15 +50,15 @@ const Page1: React.FC = () => {
         </div>
         <figure>
           <img
-            src="/Non-whites 2.png"
+            src="/1000x-1.jpg"
             alt=""
             aria-hidden
             className={`${styles.image}`}
           />
           <figcaption>
             Fonte:{' '}
-            <a href="https://secretsofaidsandebola.blogspot.com/2019/09/the-roots-of-xenophobia-in-south-africa.html">
-              https://secretsofaidsandebola.blogspot.com/2019/09/the-roots-of-xenophobia-in-south-africa.html
+            <a href="https://www.bloomberg.com/news/articles/2013-12-10/life-in-apartheid-era-south-africago">
+              https://www.bloomberg.com/news/articles/2013-12-10/life-in-apartheid-era-south-africago
             </a>
           </figcaption>
         </figure>
@@ -89,4 +90,4 @@ const Page1: React.FC = () => {
   );
 };
 
-export default Page1;
+export default Page0;

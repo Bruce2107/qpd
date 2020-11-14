@@ -19,6 +19,10 @@ p {
   font-size: 1.5rem;
 }
 
+cite > span {
+  font-size: 1.5rem;
+}
+
 figure {
   display: flex;
   flex-direction: column;
