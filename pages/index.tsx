@@ -1,4 +1,5 @@
 // import Head from 'next/head';
+import Page0 from '../components/Page0';
 import Page1 from '../components/Page1';
 import Page2 from '../components/Page2';
 import Page3 from '../components/Page3';
@@ -11,6 +12,9 @@ import { Tab, TabPanel } from '../components/Tabs';
 export default function Home() {
   return (
     <Tab>
+      <TabPanel panelKey="history" text="Racismo na história">
+        <Page0 />
+      </TabPanel>
       <TabPanel panelKey="racist" text="Racismo">
         <Page1 />
       </TabPanel>
