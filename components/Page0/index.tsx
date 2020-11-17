@@ -86,6 +86,17 @@ const Page0: React.FC = () => {
           </p>
         </div>
       </div>
+      <div
+        className={`${styles.references} ${styles.columns} ${styles['flex-column']}`}
+        style={{ rowGap: '8px' }}
+      >
+        <h4>Grupo</h4>
+        <cite>Giovana Destro Brizanti Gardini - 200056</cite>
+        <cite>Raphaela dos Santos de Oliveira - 200073</cite>
+        <cite>Yasmin Silva Costa Ercolini - 2000079</cite>
+        <cite>Michaela Lourdes Goethe - 200232</cite>
+        <cite>Vitoria Carolina da Silva - 200237</cite>
+      </div>
     </div>
   );
 };
